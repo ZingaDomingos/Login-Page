@@ -1,0 +1,749 @@
+body{
+    height: 580px;
+    background-image: url("../image-tecnologica.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position:cover;
+    background-position:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    width: 430px;
+    height: 335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgba(68, 136, 204, 0.616);
+    border-right: 5px solid rgba(68, 136, 204, 0.616);
+    border-left: 5px solid rgba(68, 136, 204, 0.616);
+    border-bottom: 2px solid rgba(68, 136, 204, 0.616);
+    border-radius: 5px 200px;
+    background-color: rgba(255, 255, 255, 0.007);
+    box-shadow: 1px 0px 10px 5px rgba(68, 136, 204, 0.616);
+}
+
+#img-tecnolben{
+    width: 80px;
+    height: 72px;
+    position: absolute;
+    margin-bottom: 355px;
+    border-radius: 100%;
+    box-shadow: 1px 0px 10px 0px rgba(68, 136, 204, 0.616);
+    
+}
+
+section{
+    width: 350px;
+    border-radius: 5px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 60px;
+    padding-top: 60px;
+    background-color: rgba(12, 13, 14, 0.61);
+}
+.div-login-cadastro{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#link-contacte-nos{
+    font-family:monospace;
+    color: white;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 0px 10px 0px rgba(68, 136, 204, 0.616);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 2px solid rgba(28, 119, 211, 0.616);
+    width: 110px;
+    height: 20px;
+}
+#link-contacte-nos:hover{
+    background-color: rgba(68, 136, 204, 0.616);
+}
+
+#link-cadastro{
+    width: 70px;
+    height: 20px;
+    box-shadow: 1px 0px 10px 0px rgba(68, 136, 204, 0.616);
+    font-family:monospace;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-decoration: none;
+    border: 2px solid rgba(28, 119, 211, 0.616);
+}
+#link-cadastro:hover{
+    background-color: rgba(68, 136, 204, 0.616);
+}
+
+.div-input-text-password{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+#input-text-password{
+    background-color: rgba(0, 162, 255, 0);
+    margin-top: 10px;
+    color: white;
+    padding-left: 2px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-left-radius: 5px;
+    padding-bottom: 4px;
+    border-color: rgba(28, 119, 211, 0.616);
+}
+
+.div-recuperar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#link-senha-nome-perdido{
+    font-size: 9px;
+    font-family:sans-serif;
+    margin-top: 14px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    color:  white;
+}
+#link-senha-nome-perdido:hover{
+    color: rgba(68, 136, 204, 0.616);
+}
+
+span{
+    color: white;
+    margin-top: 26px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.div-btn-redes-socias-entrar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-redes-socias{
+    width: 100%;
+}
+#btn-facebook{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+#btn-instagram{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+#btn-linkedin{
+    width: 22px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+#btn-entrar{
+    width: 180px;
+    height: 22px;
+    border: 1px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgba(28, 119, 211, 0.616);
+    color: white;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+#btn-entrar:hover{
+    box-shadow: 1px 0px 10px 0px rgba(68, 136, 204, 0.616);
+}
+
+/* --------------------- Responsividade para Tela no max 710px-----------------------------*/
+
+@media only screen and (max-width: 710px) {
+
+    *{
+        margin: 0px;
+    }
+
+    body{
+        width: 100%;
+        background-image: url("../image-tecnologica.jpg");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position:cover;
+        background-repeat: no-repeat;
+    }
+    
+    main{
+        width: 60%;
+        height: 335px;
+        border-top: 2px solid rgba(68, 136, 204, 0.616);
+        border-right: 5px solid rgba(68, 136, 204, 0.616);
+        border-left: 5px solid rgba(68, 136, 204, 0.616);
+        border-bottom: 2px solid rgba(68, 136, 204, 0.616);
+        border-radius: 5px 200px;
+        background-color: rgba(255, 255, 255, 0);
+        box-shadow: 1px 0px 10px 5px rgba(68, 136, 204, 0.616);
+    }
+    
+    #img-tecnolben{
+        width: 80px;
+        height: 72px;
+        position: absolute;
+        margin-bottom: 355px;
+        border-radius: 100%;
+        box-shadow: 1px 0px 10px 0px rgba(68, 136, 204, 0.616);
+    }
+    
+    section{
+        width: 100%;
+        border-radius: 5px;
+        height: 260px;
+        flex-direction: column;
+        padding: 20px;
+        padding-left: 60px;
+        padding-top: 60px;
+        background-color: rgba(12, 13, 14, 0.61);
+    }
+    .div-login-cadastro{
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    
+    #link-contacte-nos{
+        font-family:monospace;
+        color: white;
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 1px 0px 10px 0px rgba(68, 136, 204, 0.616);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 2px solid rgba(28, 119, 211, 0.616);
+        width: 110px;
+        height: 20px;
+    }
+    #link-contacte-nos:hover{
+        background-color: rgba(68, 136, 204, 0.616);
+    }
+    
+    #link-cadastro{
+        width: 70px;
+        height: 20px;
+        box-shadow: 1px 0px 10px 0px rgba(68, 136, 204, 0.616);
+        font-family:monospace;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        text-decoration: none;
+        border: 2px solid rgba(28, 119, 211, 0.616);
+    }
+    #link-cadastro:hover{
+        background-color: rgba(68, 136, 204, 0.616);
+    }
+    
+    .div-input-text-password{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    #input-text-password{
+        background-color: rgba(0, 162, 255, 0);
+        margin-top: 10px;
+        color: white;
+        padding-left: 2px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom-left-radius: 5px;
+        padding-bottom: 4px;
+        border-color: rgba(28, 119, 211, 0.616);
+    }
+    
+    .div-recuperar{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #link-senha-nome-perdido{
+        font-size: 9px;
+        font-family:sans-serif;
+        margin-top: 14px;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        font-weight: bolder;
+        color:  white;
+    }
+    #link-senha-nome-perdido:hover{
+        color: rgba(68, 136, 204, 0.616);
+    }
+    
+    span{
+        color: white;
+        margin-top: 26px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .div-btn-redes-socias-entrar{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .div-redes-socias{
+        width: 100%;
+    }
+    #btn-facebook{
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+    }
+    #btn-instagram{
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+    }
+    #btn-linkedin{
+        width: 22px;
+        height: 20px;
+        border-radius: 20px;
+    }
+    
+    #btn-entrar{
+        width: 180px;
+        height: 22px;
+        border: 1px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: rgba(28, 119, 211, 0.616);
+        color: white;
+        font-family: monospace;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        float: right;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    #btn-entrar:hover{
+        box-shadow: 1px 0px 10px 0px rgba(68, 136, 204, 0.616);
+    }
+
+} 
+
+/* --------------------- Responsividade para Tela no max 576px-----------------------------*/
+
+
+@media only screen and (max-width: 576px) {
+
+
+    body{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../image-tecnologica-2.jpg");
+        background-position:cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
+    main{
+        width: 90%;
+        height: 300px;
+        border-top: 2px solid rgba(68, 136, 204, 0.616);
+        border-right: 5px solid rgba(68, 136, 204, 0.616);
+        border-left: 5px solid rgba(68, 136, 204, 0.616);
+        border-bottom: 2px solid rgba(68, 136, 204, 0.616);
+        border-radius: 5px 200px;
+        background-color: rgba(255, 255, 255, 0);
+        box-shadow: 1px 0px 10px 5px rgba(68, 136, 204, 0.616);
+    }
+    
+    #img-tecnolben{
+        width: 70px;
+        height: 60px;
+        position: absolute;
+        margin-bottom: 355px;
+        border-radius: 100%;
+        box-shadow: 1px 0px 10px 0px rgba(68, 136, 204, 0.616);
+    }
+    
+    section{
+        width: 100%;
+        border-radius: 5px;
+        height: 260px;
+        flex-direction: column;
+        padding: 20px;
+        background-color: rgba(12, 13, 14, 0.61);
+    }
+    .div-login-cadastro{
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    
+    #link-contacte-nos{
+        font-family:monospace;
+        color: white;
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 1px 0px 10px 0px rgba(68, 136, 204, 0.616);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 2px solid rgba(28, 119, 211, 0.616);
+        width: 55%;
+        height: 20px;
+    }
+    #link-contacte-nos:hover{
+        background-color: rgba(68, 136, 204, 0.616);
+    }
+    
+    #link-cadastro{
+        width: 38%;
+        height: 20px;
+        box-shadow: 1px 0px 10px 0px rgba(68, 136, 204, 0.616);
+        font-family:monospace;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        text-decoration: none;
+        border: 2px solid rgba(28, 119, 211, 0.616);
+    }
+    #link-cadastro:hover{
+        background-color: rgba(68, 136, 204, 0.616);
+    }
+    
+    .div-input-text-password{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    #input-text-password{
+        background-color: rgba(0, 162, 255, 0);
+        margin-top: 10px;
+        color: white;
+        padding-left: 2px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom-left-radius: 5px;
+        padding-bottom: 4px;
+        border-color: rgba(28, 119, 211, 0.616);
+    }
+    
+    .div-recuperar{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #link-senha-nome-perdido{
+        font-size: 9px;
+        font-family:sans-serif;
+        margin-top: 14px;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        font-weight: bolder;
+        color:  white;
+    }
+    #link-senha-nome-perdido:hover{
+        color: rgba(68, 136, 204, 0.616);
+    }
+    
+    span{
+        color: white;
+        margin-top: 26px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .div-btn-redes-socias-entrar{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .div-redes-socias{
+        width: 100%;
+    }
+    #btn-facebook{
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+    }
+    #btn-instagram{
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+    }
+    #btn-linkedin{
+        width: 22px;
+        height: 20px;
+        border-radius: 20px;
+    }
+    
+    #btn-entrar{
+        width: 60%;
+        height: 22px;
+        border: 1px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: rgba(28, 119, 211, 0.616);
+        color: white;
+        font-family: monospace;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        float: right;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    #btn-entrar:hover{
+        box-shadow: 1px 0px 10px 0px rgba(68, 136, 204, 0.616);
+    }
+
+} 
+
+/* --------------------- Responsividade para Tela no max 300px-----------------------------*/
+
+
+@media only screen and (max-width: 300px) {
+
+
+    body{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-attachment: fixed;
+        background-image: url("../image-tecnologica-2.jpg");
+        background-size: cover;
+        background-position:cover;
+        background-repeat: no-repeat;
+    }
+    
+    main{
+        width: 90%;
+        height: 300px;
+        border-top: 2px solid rgba(68, 136, 204, 0.616);
+        border-right: 5px solid rgba(68, 136, 204, 0.616);
+        border-left: 5px solid rgba(68, 136, 204, 0.616);
+        border-bottom: 2px solid rgba(68, 136, 204, 0.616);
+        border-radius: 5px 200px;
+        background-color: rgba(255, 255, 255, 0);
+        box-shadow: 1px 0px 10px 5px rgba(68, 136, 204, 0.616);
+    }
+    
+    section{
+        width: 100%;
+        border-radius: 5px;
+        flex-direction: column;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        background-color: rgba(12, 13, 14, 0.61);
+    }
+
+    .div-login-cadastro{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    
+    #link-contacte-nos{
+        font-size: 10px;
+        font-family:monospace;
+        color: white;
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 1px 0px 10px 0px rgba(68, 136, 204, 0.616);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 2px solid rgba(28, 119, 211, 0.616);
+        width: 55%;
+        height: 20px;
+    }
+    #link-contacte-nos:hover{
+        background-color: rgba(68, 136, 204, 0.616);
+    }
+    
+    #link-cadastro{
+        width: 38%;
+        height: 20px;
+        font-size: 10px;
+        box-shadow: 1px 0px 10px 0px rgba(68, 136, 204, 0.616);
+        font-family:monospace;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        text-decoration: none;
+        border: 2px solid rgba(28, 119, 211, 0.616);
+    }
+    #link-cadastro:hover{
+        background-color: rgba(68, 136, 204, 0.616);
+    }
+    
+    .div-input-text-password{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    #input-text-password{
+        background-color: rgba(0, 162, 255, 0);
+        margin-top: 10px;
+        color: white;
+        padding-left: 2px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom-left-radius: 5px;
+        padding-bottom: 4px;
+        border-color: rgba(28, 119, 211, 0.616);
+    }
+    
+    .div-recuperar{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #link-senha-nome-perdido{
+        font-size: 8px;
+        font-family:sans-serif;
+        margin-top: 14px;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        font-weight: bolder;
+        color:  white;
+    }
+    #link-senha-nome-perdido:hover{
+        color: rgba(68, 136, 204, 0.616);
+    }
+    
+    span{
+        color: white;
+        margin-top: 26px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .div-btn-redes-socias-entrar{
+        width: 100%;
+        height: 200px;
+        flex-direction: column;
+    }
+    
+    .div-redes-socias{
+        width: 90%;
+        margin-left: 8%;
+    }
+
+    #btn-facebook{
+        width: 20px;
+        float: left;
+        height: 20px;
+        border-radius: 10px;
+    }
+
+    #btn-instagram{
+        margin-right: 2%;
+        margin-left: 2%;
+        width: 20px;
+        float: left;
+        height: 20px;
+        border-radius: 10px;
+    }
+
+    #btn-linkedin{
+        width: 22px;
+        float: left;
+        height: 20px;
+        border-radius: 20px;
+    }
+    
+    #btn-entrar{
+        width: 60%;
+        height: 22px;
+        border: 1px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: rgba(28, 119, 211, 0.616);
+        color: white;
+        font-family: monospace;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: 14%;
+        margin-top: 10%;
+    }
+    #btn-entrar:hover{
+        box-shadow: 1px 0px 10px 0px rgba(68, 136, 204, 0.616);
+    }
+
+} 
